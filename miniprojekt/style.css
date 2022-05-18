@@ -1,0 +1,177 @@
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+header {
+    background: #004B87;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    border-radius: 30px;
+    border-bottom: 8px solid #FFCD00;
+
+}
+
+/* H1 i header */
+header h1 {
+    font-family: 'Staatliches', cursive;
+}
+
+/* Meny */
+.menu {
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Meny a med länkar */
+.menu_button {
+    color: #004B87;
+    background: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Staatliches', cursive;
+    border: 4px solid #004B87;
+    border-radius: 6px;
+    transition: all 0.6s ease 0s;
+}
+
+/* Meny a hoover över element */
+.menu_button:hover {
+    color: #3e94ec;
+    border-radius: 50px;
+    border-color: #3e94ec;
+    transition: all 0.6s ease 0s;
+    text-decoration: none;
+}
+
+/* Sidan som man är inne på har sin knapp ändrar */
+.active {
+    color: #3e94ec;
+    border-radius: 50px;
+    border-color: #3e94ec;
+    text-decoration: none;
+}
+
+/* Huvudtexten */
+.main {
+    border: 5px solid #000;
+}
+
+/* Huvudtext h2 */
+.main h2 {
+    font-family: 'Staatliches', cursive;
+    margin-left: 5%;
+}
+
+/* Huvudtext p */
+.main p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+}
+
+/* huvudtext lista */
+.main ul {
+    margin-left: 5%;
+}
+
+/* Bild */
+.image_main {
+    width: 100%;
+    height: 700px;
+}
+
+/* Info och kontakt */
+.second {
+    text-align: center;
+    color: #000;
+    border-radius: 20px;
+    border: 4px solid #3e94ec;
+    margin: 8%;
+}
+
+/* Info och kontakt h2 */
+.second h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+/* Footer längst ner på sidan */
+footer {
+    text-align: center;
+    border-top: 8px solid #004B87;
+    background: #05375f;
+    margin: 0;
+}
+
+/* Footer h2 element */
+footer h2 {
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+}
+
+/* Footer a element */
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Table */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background: #000;
+    color: #fff;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Staatliches', cursive;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bilder */
+.image_pic {
+    background: url("Bilder/sweden.jpg");
+    width: 100%;
+}
+
+/* Bilder img element */
+.image_pic img {
+    width: 33%;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+/*Priser */
+.price_main {
+    border: 2px solid #000;
+}
+
+/*Priser h1*/
+.price_main h1 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
+
+/* input */
+label {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+input {
+    border: 2px solid #000;
+}

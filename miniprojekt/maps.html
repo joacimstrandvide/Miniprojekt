@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel -->
+    <title>Sverige</title>
+    <!-- Länk till js och css fil bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- egen css fil -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header och rubrik -->
+    <header>
+        <h1>Stockholm</h1>
+    </header>
+
+    <!-- Meny -->
+    <div class="menu">
+        <!-- De olika alternativen -->
+        <a class="menu_button" href="index.html">Hem</a>
+        <a class="menu_button" href="about.html">Om</a>
+        <a class="menu_button" href="pictures.html">Bilder</a>
+        <a class="menu_button active" href="maps.html">Karta</a>
+        <a class="menu_button" href="tourist.html">Priser</a>
+    </div>
+
+    <!-- Google maps -->
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <!-- Script funktion för att ta fram google maps över stockholm-->
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(59.32932349, 18.0685808),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+
+    <!-- Har ingen API key men det här är mer för att visa hur det ser ut -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</body>
+
+</html>
