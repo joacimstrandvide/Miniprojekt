@@ -1,5 +1,5 @@
 # Miniprojekt
 
-En turist webbsida för Stockholm
+Tourist website for the city of Stockholm
 
 <img src="Sverige.png" alt="Screenshot" title="Screenshot">
